@@ -16,7 +16,6 @@
   /* выше установили ограничения для секции */
   position: relative;
   display: flex;
-  border: 1px solid red;
 }
 
 .logo__place_header {
@@ -24,7 +23,6 @@
   top: 30px;
   left: 64px;
   font-size: 32px;
-  border: 1px solid red;
   z-index: 2;
 }
 
@@ -38,7 +36,6 @@
   font-weight: 600;
   flex-direction: row;
   align-self:center ;
-  border: 1px solid red;
   z-index: 2;
 }
 
@@ -49,7 +46,6 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  border: 1px solid red;
   z-index: 2;
 }
 
@@ -63,7 +59,6 @@
   right: 0;
   width: 765px;
   height: 608px;
-  border: 1px solid red;
   z-index: 1;
 }
 

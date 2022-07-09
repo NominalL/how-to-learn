@@ -164,7 +164,7 @@
 }
 
 .table__heading {
-  line-height: 1.15px;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
@@ -224,10 +224,14 @@
 }
 
 .kaufman {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #1f1f1f;
+  overflow: hidden;
+  z-index: -2;
+  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
@@ -239,7 +243,6 @@
   color: white;
 }
 
-
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -247,3 +250,22 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+  z-index: -1;
+}
+
+
